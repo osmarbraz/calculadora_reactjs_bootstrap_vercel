@@ -15,4 +15,4 @@
    - App.js - Interface do programa.
 
 - Vercel
-   https://calculadora_reactjs_bootstrap_vercel.vercel.app/      
+   https://calculadora-reactjs-bootstrap-vercel.vercel.app/

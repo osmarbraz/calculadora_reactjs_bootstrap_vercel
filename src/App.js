@@ -8,7 +8,7 @@ function FrmCalculadora() {
     const [valorA, setValorA] = useState(0);
     const [operacao, setOperacao] = useState('adicao');
     const [valorB, setValorB] = useState(0);
-    const [resposta, setResposta] = useState({a: 0, b: 0, operador: '', resultado: 0});
+    const [resposta, setResposta] = useState({a: 0, b: 0, operador: '?', resultado: 0});
   
     // Submissão do formulário.
     const handleSubmit = (event) => {

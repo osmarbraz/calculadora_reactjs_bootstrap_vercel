@@ -17,7 +17,7 @@ function FrmCalculadora() {
       //Endereço da API + operação + valorA + valorB
       fetch(`https://calculadora-nodejs-vercel.vercel.app/${operacao}/${valorA}/${valorB}`)
         .then((response) => response.json()) //Converte a resposta para JSON
-        .then((data) => setResposta({a: data.a, b : data.b, operador: data.operador, resultado: data.resultado})); //Atribui a resposta as variáveis
+        .then((data) => setResposta({a: data.a, b : data.b, operador: data.operador, resultado: data.resultado})); // Atribui a resposta as variáveis
     };
 
     // Limpa os campos do formulário.     
@@ -58,7 +58,7 @@ function FrmCalculadora() {
           </Form.Group>
           <Form.Group>
             <br/><Form.Label>Resultado: </Form.Label>  
-            <br/><Form.Label> {resposta.a} {resposta.operador} {resposta.b} = {resposta.resultado} </Form.Label>     
+            <br/><Form.Label> {resposta.a} {resposta.operador} {resposta.b} = {resposta.resultado} </Form.Label>
           </Form.Group>
         </Form>
       </Container>

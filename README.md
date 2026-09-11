@@ -4,7 +4,8 @@
 
 - O projeto foi desenvolvido no VSCode deve ser chamado "calculadora_reactjs_bootstrap_vercel".
 - Programa servidor está no projeto "calculadora_nodejs_vercel".
-- Programa cliente web utiliza a porta 3000.
+- Programa cliente web utiliza a porta 5173.
+- A pasta src contêm os fontes do projeto.
 
 ## Dependências
 
